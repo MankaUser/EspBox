@@ -16,7 +16,6 @@ function ApplyToCurrentPlayers()
         end
     end
 end  
-end
 RunService.Heartbeat:Connect(function()
     ApplyToCurrentPlayers()
 end)
