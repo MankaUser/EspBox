@@ -15,7 +15,8 @@ function ApplyToCurrentPlayers()
             HighlightClone.OutlineTransparency = 0.19
         end
     end
-end    
+end  
+end
 RunService.Heartbeat:Connect(function()
     ApplyToCurrentPlayers()
 end)
