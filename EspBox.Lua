@@ -1,3 +1,5 @@
+if stsik then
+
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local Highlight = Instance.new("Highlight")
@@ -13,6 +15,8 @@ function ApplyToCurrentPlayers()
             HighlightClone.Name = "Highlight"
             HighlightClone.FillTransparency = 0.55
             HighlightClone.OutlineTransparency = 0.19
+                else
+            HighlightClone:Destroy()
         end
     end
 end    
